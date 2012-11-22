@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="module" version="1.7">
+  <name>Hover USA</name>
+  <author>Daniel Blanco Rojas</author>
+    <creationDate>November 2012</creationDate>
+    <copyright>Copyright (c) 2012 Daniel Blanco Rojas.</copyright>
+    <license>http://www.opensource.org/licenses/mit-license.php</license>
+    <authorEmail>daniel.blancorojas@gmail.com</authorEmail>
+    <authorUrl>https://github.com/DanielBlanco/mod_hoverusa</authorUrl>
+    <version>1.0</version>
+    <description>This Joomla! module will display a USA Map that allows hovering to display configured data.</description> 
+    <files>
+    <filename module="mod_hoverusa">mod_hoverusa.php</filename>
+    <filename>mod_hoverusa.xml</filename>
+    <filename>index.html</filename>
+    <filename>jquery.usmap.js</filename>
+    <filename>raphael-min.js</filename>
+    <filename>mod_hoverusa.js</filename>
+  </files>
+  <languages>
+    <!-- Any language files included with the module -->
+    <language tag="en-GB">en-GB.mod_hoverusa.ini</language>
+  </languages>
+  <config>
+  </config>
+</install>
