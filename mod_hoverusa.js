@@ -1,5 +1,5 @@
-jQuery(document).ready(function() {
-  var mapEl = jQuery('#usmap');
+jQuery(document).ready(function($) {
+  var mapEl = $('#usmap');
   if (mapEl !== 0) {
     var options = {};
 
@@ -26,8 +26,8 @@ jQuery(document).ready(function() {
       }
     }*/
     options['click']= function(event, data) {
-      var div = jQuery('#usmap-'+data.name);
-      jQuery('.usmap-state').hide();
+      var div = $('#usmap-'+data.name);
+      $('.usmap-state').hide();
       if (div.lenght !== 0) {
         div.show();
       }

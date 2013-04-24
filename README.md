@@ -164,3 +164,29 @@ Example HTML:
   </div>
 
 ```
+
+Profile HTML:
+
+```html
+
+<div class="usmap-profile">
+  <div class="picture">
+    <img src="profile-pic.jpg" border="0"/>
+  </div>
+  <div class="info">
+    <div class="name">Daniel Blanco Rojas</div>
+    <div class="phone">
+      <img src="phone.png"/>
+      <span>(506) 8886-5123</span>
+    </div>
+    <div class="email">
+      <img src="email.gif"/>
+      <span>daniel.blancorojas@gmail.com</span>
+    </div>
+    <div class="navigation">
+      <a href="" class="next">Next</a>
+    </div>
+  </div>
+</div>
+
+```
